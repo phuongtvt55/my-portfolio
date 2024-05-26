@@ -1,0 +1,26 @@
+:root {
+  --yellow-color: #ffd700;
+}
+
+/* Importing google font  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap");
+
+.tagcloud {
+  display: inline-block;
+  top: 0;
+  left: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Change color of each text in sphere on hover   */
+.tagcloud--item {
+  color: #00ffffff;
+  text-transform: uppercase;
+}
+
+.tagcloud--item:hover {
+  color: var(--yellow-color);
+  cursor: pointer;
+}
